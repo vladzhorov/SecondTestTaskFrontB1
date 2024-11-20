@@ -1,0 +1,75 @@
+.file-list {
+    margin: 20px;
+  }
+  
+  .file-table,
+  .account-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .highlight-text {
+    font-weight: bold;
+    color: #000; /* черный цвет для выделенных ячеек */
+  }
+  
+  .class-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: green;
+    text-align: center;
+  }
+  
+  .header-table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .header-cell {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .header-cell.center-text {
+    text-align: center;
+  }
+  
+  .header-cell.bold {
+    font-weight: bold;
+  }
+  
+  .header-cell:last-child {
+    text-align: right;
+  }
+
+  .title{
+    text-align: left;
+  }
+  
+  .sumOnDate{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .centered-text{
+    font-weight: bold;
+  }
